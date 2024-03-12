@@ -5,9 +5,10 @@ let resultado = 0
 for (let i = a; i <= b; i++) {
     if (i % 2 == 0) {
         if(i != 0) {
-            console.log(i)  
+            console.log(i);
+            resultado = i + resultado; 
         }
-        resultado = i + resultado 
+        
     }
     
 }
