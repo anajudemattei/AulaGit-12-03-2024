@@ -1,4 +1,4 @@
-let idade = 24;
+let idade = 25;
 
 if(idade >= 18){
     console.log("voce é maior de idade");
